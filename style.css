@@ -93,7 +93,8 @@ li:first-child a {
 }
 
 .chunkone {
-	margin-top: 150px;
+	padding: 150px 0 50px 0;
+	background-color: #efefef;
 }
 
 .elevator-pitch {
@@ -153,10 +154,8 @@ li:first-child a {
 }
 
 .chunktwo {
-	background-color: #efefef;
 	border-bottom: 3px solid #85007A;
 	border-top: 3px solid #85007A;
-	margin: 50px 0 50px 0;
 	padding: 50px 0 50px 0;
 }
 
@@ -173,6 +172,11 @@ li:first-child a {
 	font-family: 'Sanchez', serif;
 	color: inherit;
 	font-style: italic;
+}
+
+.chunkthree {
+	padding-top: 50px;
+	background-color: #efefef;
 }
 
 .learn {
@@ -216,6 +220,10 @@ li:first-child a {
 	text-align: center;
 	font-style: italic;
 	padding: 50px 0;
+}
+
+.chunkfour, .chunkfive {
+	background-color: #efefef;
 }
 
 .tina-bio, .bike-story, .map-story {
