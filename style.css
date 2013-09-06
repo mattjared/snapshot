@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
+	-moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+    box-sizing:        border-box;
 }
 
 .navbar {
@@ -261,7 +264,7 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 	float: left;
 }
 
-#tina-bio-photo, #bike-photo, #map-embed {
+#tina-bio-photo, #bike-photo, #screenshot {
 	display: block;
 	margin: 0 auto;
 	border: 3px solid #850078;
@@ -322,17 +325,92 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 	font-style: italic;
 }
 
+.chunkseven {
+	background-color: #efefef;
+	padding: 50px 0;
+}
+
+.want {
+	font-weight: 300;
+	font-size: 1.7em;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+.packlist {
+	font-size: 1.2em;
+	font-weight: 300;
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.freecopy {
+	width: 50%;
+	float: right;
+	font-weight: 300;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+#email {
+	padding-top: 50px;
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+#name {
+	width: 40%;
+	float: left;
+	font-size: 1.5em;
+	padding: 5px 0;
+}
+
+#address {
+	width: 40%;
+	float: left;
+	font-size: 1.5em;
+	padding: 5px 0;
+	margin-left: 20px;
+}
+
+#submit, #gobutton{
+	background-color: #FFAA00;
+	width: 15%;
+	float: right;
+	font-size: 1.5em;
+	padding: 3px 0;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.7);
+	transition: all .25s ease;
+}
+
+#submit:hover, #gobutton:hover {
+	border: 3px solid rgba(255,255,255, 0.1);
+	color: rgba(0, 0, 0, 0.9);
+	transition: all .25s ease;
+}
+
 .chunkbottom { 
 	border-top: 3px solid rgba(255, 255, 255, 0.5);
 	background-color: #06266F;
 }
 
+
 .copyright {
 	color: #E6E6E6;
-	font-size: 1em;
+	font-size: .9em;
+	padding: 15px 0;
 	text-align: center;
 	font-weight: 300;
 }
+
+.copyright a {
+	color: inherit;
+}
+
 
 @media screen and (max-width: 640px) {
 	
@@ -461,6 +539,37 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 		width: 95%;
 		margin: 0 auto;
 	}
+
+	.packlist {
+		width: 95%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.freecopy {
+		width: 95%;
+		float: none;
+		margin: 15px auto;
+	}
+
+	#name {
+		width: 95%;
+		float: none;
+		margin: 10px auto;
+	}
+
+	#address {
+		width: 95%;
+		float: none;
+		margin: 10px auto;
+	}
+
+	#submit, #gobutton{
+		width: 95%;
+		margin: 10px auto;
+		float: none;
+	}
+
 
 }
 
