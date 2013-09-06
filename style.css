@@ -129,12 +129,19 @@ li:first-child a {
 	width: 75%;
 	display: block;
 	border: 3px solid rgba(255, 255, 255, 0.5);
-	color: rgba(0, 0, 0, 0.7);
+	color: rgba(0, 0, 0, 0.6);
 	border-radius: 10px;
 	text-align: center;
 	background-color: #FFAA00;
 	text-decoration: none;
 	font-size: 1.4em;
+	transition: all .25s ease;
+}
+
+.buy-now-button:hover {
+	border: 3px solid rgba(255,255,255, 0.1);
+	color: rgba(0, 0, 0, 0.9);
+	transition: all .25s ease;
 }
 
 .Byline {
@@ -152,6 +159,25 @@ li:first-child a {
 	color: inherit;
 	font-family: 'Sanchez', serif;
 }
+
+.social {
+	text-align: center;
+}
+
+a .icon-twitter, a .icon-envelope  {
+	color: #85007A;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 15px;
+	opacity: .5;
+	transition: .25s all ease;
+}  
+
+a .icon-twitter:hover, a .icon-envelope:hover {
+	opacity: 1;
+	transition: .25s all ease;
+}
+
 
 .chunktwo {
 	border-bottom: 3px solid #85007A;
@@ -262,9 +288,37 @@ li:first-child a {
 	background-color: #FFAA00;
 	text-decoration: none;
 	font-size: 1.4em;
+	transition: all .25s ease;
 }
 
-.chunksix { 
+.buy-now-button-two:hover {
+	border: 3px solid rgba(255,255,255, 0.1);
+	color: rgba(0, 0, 0, 0.9);
+	transition: all .25s ease;
+}
+
+.chunksix {
+	border-bottom: 3px solid #85007A;
+	border-top: 3px solid #85007A;
+	padding: 50px 0 50px 0;
+}
+
+.testimonial2 {
+	font-weight: 300;
+}
+
+.jessica {
+	font-family: 'Sanchez', serif;
+	font-style: italic;
+}
+
+.jessica a {
+	font-family: 'Sanchez', serif;
+	color: inherit;
+	font-style: italic;
+}
+
+.chunkbottom { 
 	border-top: 3px solid rgba(255, 255, 255, 0.5);
 	background-color: #06266F;
 }
@@ -390,6 +444,18 @@ li:first-child a {
 
 	.buy-now-button-two {
 		width: 90%;
+	}
+
+	.testimonial2 {
+		margin: 0 auto;
+		width: 95%;
+		margin: 0 auto;
+		text-align: justify;
+	}
+
+	.jessica {
+		width: 95%;
+		margin: 0 auto;
 	}
 
 }
