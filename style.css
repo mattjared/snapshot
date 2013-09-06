@@ -30,9 +30,13 @@
 .toplogo {
 	width: 60%;
 	float: left;
-	color: #E6E6E6;
 	font-weight: 300;
 	line-height: 2em;
+}
+
+.toplogo a {
+	color: #E6E6E6;
+	text-decoration: none;
 }
 
 
