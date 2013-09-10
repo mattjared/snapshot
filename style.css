@@ -109,6 +109,11 @@ li:first-child a {
 	float: left;
 }
 
+.elevator-pitch-confirm {
+	width: 100%;
+	float: left;
+}
+
 .Snapshot-title {
 	font-weight: 300;
 	font-size: 1.9em;
