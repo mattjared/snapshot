@@ -382,15 +382,16 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 	margin-left: 20px;
 }
 
-#submit, #gobutton{
+#gobutton{
 	background-color: #FFAA00;
 	width: 15%;
 	float: right;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	padding: 3px 0;
 	border: 3px solid rgba(255, 255, 255, 0.5);
 	color: rgba(0, 0, 0, 0.7);
 	transition: all .25s ease;
+	border-radius: 10px;
 }
 
 #submit:hover, #gobutton:hover {
