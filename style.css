@@ -126,6 +126,12 @@ li:first-child a {
 	margin: 15px 0;
 }
 
+.failcontent {
+	font-weight: 300;
+	font-size: 1.25em;
+	margin: 15px 0;
+}
+
 .book-cover {
 	width: 50%;
 	float: right;
@@ -469,6 +475,14 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 	font-size: 1em;
 	margin: 15px 0;
 	text-align: justify;
+	}
+
+	.failcontent {
+	font-weight: 300;
+	font-size: 1em;
+	margin: 15px auto;
+	text-align: justify;
+	width: 95%;
 	}
 
 	.book-cover {
