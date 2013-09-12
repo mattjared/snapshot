@@ -122,7 +122,7 @@ li:first-child a {
 
 .pdf {
 	font-weight: 300;
-	font-size: 1em;
+	font-size: 1.25em;
 	margin: 15px 0;
 }
 
@@ -226,7 +226,7 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 
 .subtext {
 	font-weight: 300; 
-	font-size: 1em;
+	font-size: 1.10em;
 	text-align: center;
 	padding: 15px 0 30px 0;
 }
