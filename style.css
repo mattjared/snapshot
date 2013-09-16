@@ -122,7 +122,7 @@ li:first-child a {
 
 .pdf {
 	font-weight: 300;
-	font-size: 1.25em;
+	font-size: 1.15em;
 	margin: 15px 0;
 }
 
@@ -177,6 +177,13 @@ li:first-child a {
 .Byline a {
 	color: inherit;
 	font-family: 'Sanchez', serif;
+}
+
+.bookformat {
+	clear: both;
+	width: 100%;
+	font-size: .75em;
+	text-align: center;
 }
 
 .social {
