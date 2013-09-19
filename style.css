@@ -145,7 +145,7 @@ li:first-child a {
 .buy-now-button {
 	margin: 50px auto 0 auto;
 	padding: 5px 0;
-	width: 75%;
+	width: 60%;
 	display: block;
 	border: 3px solid rgba(255, 255, 255, 0.5);
 	color: rgba(0, 0, 0, 0.6);
@@ -184,6 +184,7 @@ li:first-child a {
 	width: 100%;
 	font-size: .75em;
 	text-align: center;
+	margin-top: 5px;
 }
 
 .social {
