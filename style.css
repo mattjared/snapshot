@@ -235,12 +235,20 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 	padding-top: 50px;
 }
 
+.question a {
+	color: inherit;
+}
+
 .answer {
 	font-size: 1em;
 	font-weight: 300;
 	padding: 30px 0;
 	width: 100%;
 	float: left;
+}
+
+.answer a {
+	color: inherit;
 }
 
 .chunkthree {
