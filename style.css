@@ -396,8 +396,17 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 	font-size: 1.2em;
 	font-weight: 300;
 	float: left;
-	width: 50%;
+	width: 45%;
 	text-align: left;
+	list-style: none;
+}
+
+.packlist li {
+	margin-bottom: 10px;
+}
+
+.packlist li:last-child {
+	margin-bottom: none;
 }
 
 .freecopy {
@@ -630,6 +639,7 @@ a .icon-twitter:hover, a .icon-envelope:hover {
 		width: 95%;
 		float: none;
 		margin: 0 auto;
+		list-style: none;
 	}
 
 	.freecopy {
